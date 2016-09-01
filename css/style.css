@@ -492,16 +492,7 @@ xsigin/signup popup
 
 
 /*updated css*/
-.card{
-width: 550px;
-border: 1px solid gray;
-box-shadow: 1px 1px 3px #888;
-border-top: 10px solid #FF3D00;
-min-height: 250px;
-padding-: 10px;
-margin: 10px auto;
-/*margin: 0 auto;*/
-}
+/*css*/
 
 .cards{
 width: 800px;
@@ -516,7 +507,6 @@ margin: 10px auto;
 
 .cardname{
 font-weight: bold;
-
 }
 
 /*cardview ratings*/
@@ -543,13 +533,8 @@ font-weight: bold;
   margin-left: 20px;
 }
 
-/*.EventLocation{
-  margin-left: 20px;
-}
-.EventAddress,.EventDetails,.EventPrice,.EventTime,.EventContact,.Book{
-  margin-left: 20px;
-}*/
 
+/*fitness center button*/
 .Book{
 background: #ff263d none repeat scroll 0 0;
 border: 4px solid #ff263d;
@@ -566,10 +551,137 @@ margin-right: 4%;
 }
 
 /*company name card*/
-#mainboxx > div > h3 > a{
+.EventCompany .CompanyName{
   color: #ff263d;
 }
 
 .eventLocation,.eventDetails,.eventprice,.eventtime,.eventcontact{
   margin-left: 210px;
+}
+
+
+
+/*academy banner css*/
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+   max-width: 100%;
+}
+
+/*academy company css*/
+.academy {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+.academy span {
+   color: white;
+   /*font: bold 24px/45px Helvetica, Sans-Serif;*/
+   /*letter-spacing: -1px;*/
+   /*background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);*/
+   /*padding: 10px;*/
+   font-family: inherit;
+   font-size: 40px;
+   line-height: 60px;
+   letter-spacing: 0px;
+   font-weight: 300;
+}
+
+/*academy location css*/
+
+.academyLocation {
+  position: absolute;
+  top: 275px;
+  left: 0;
+  width: 100%;
+}
+
+
+
+.academyLocation span {
+  color: white;
+  /*font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;*/
+  /*background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);*/
+  /*padding: 10px;*/
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+/*academy button*/
+.pay{
+  position: absolute;
+  top: 325px;
+  left: 0;
+  background: #ff263d none repeat scroll 0 0;
+  border: 4px solid #ff263d;
+  border-radius: 4px;
+  color: white;
+  font-family: arial;
+  padding: 12px 36px;
+  margin-left: 45%
+
+}
+
+/*academy menu*/
+.academy-details{
+  height : 150px;
+	background : black;
+}
+
+.academy-list{
+  margin-left : 350px;
+  padding-top : 20px;
+}
+
+.academy-list a {
+  margin-right : 25px;
+}
+
+.aboutus{
+  background : #ff263d;
+	height : 250px;
+}
+
+ .abouttitle{
+  color: white;
+  font-family: inherit;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  font-weight: 300;
+}
+
+.aboutcontent{
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.offer{
+  background: #f6f6f6 none repeat scroll 0 0;
+	height: 500px;
+}
+
+.offer-head{
+  color: black;
+  font-family: inherit;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.img-with-text{
+  margin-left: 10%;
+}
+.imagetext{
+margin-left: 20px;
 }

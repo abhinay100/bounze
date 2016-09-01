@@ -79,20 +79,22 @@
 
 					?>	<div id="mainboxx">
 						<div class="cards">
-
-						<br> <h3 class="EventCompany"><a  class="CompanyName" href="#"><?php  echo "$company"; ?></a><span class="rate"><?php  echo "$ratings"; ?></span></h3>
+            <form action="academyPage.php" method="post">
+						<br> <h3 class="EventCompany" name = "company"><a  class="CompanyName" href="#"><?php  echo "$company"; ?></a><span class="rate"><?php  echo "$ratings"; ?></span></h3>
 						<br> <img class="EventImage" src="<?php echo "$image" ?>" height="200" width="175">
             <div class = "new">
-
 						 <p class = "eventLocation"><img src="images/location.png" width="20" >  <?php  echo "$location"; ?></p>
 						 <br><p class = "eventDetails"><img src="images/details.png" width="20" >  <?php  echo "$details"; ?></p>
              <br><p class = "eventprice"><img src="images/money.png" width="20" style="margin-bottom: -1%;">  <?php  echo "$price"; ?></p>
 						 <br><p class = "eventtime"><img src="images/time.png" width="20" style="margin-bottom: -1%;">  <?php  echo "$time"; ?></p>
 						 <br><p class = "eventcontact"><img src="images/phone.png" width="20">  <?php  echo "$contact"; ?></p>
+						 <input type="hidden" name="company_name_tob_booked" value="<?php echo $company; ?>" />
+						 <input type="hidden" name="company_location" value="<?php echo $location; ?>" />
+						 <input type="hidden" name="company_image" value="<?php echo $image; ?>"/>
 						 <br><button class="Book"> Book Now </button>
 
 						 </div>
-
+           </form>
 						</div>
 						</div>
 
