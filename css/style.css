@@ -504,11 +504,11 @@ margin: 10px auto;
 }
 
 .cards{
-width: 600px;
+width: 800px;
 border: 1px solid gray;
 box-shadow: 1px 1px 3px #888;
 /*border-top: 10px solid #FF3D00;*/
-min-height: 400px;
+min-height: 278px;
 padding-: 10px;
 margin: 10px auto;
 /*margin: 0 auto;*/
@@ -519,8 +519,9 @@ font-weight: bold;
 
 }
 
+/*cardview ratings*/
 .rate{
-  background: #888;
+  background:  #ff263d;
     color: white;
     border-radius: 3px;
     /*height: 25px;*/
@@ -532,7 +533,7 @@ font-weight: bold;
     font-size: 14px;
     line-height: 14px;
     float: right;
-    margin-right: 10%;
+    margin-right: 4%;
     /*right: 20px;*/
     /*margin-left: 375px;*/
 }
@@ -542,25 +543,33 @@ font-weight: bold;
   margin-left: 20px;
 }
 
-.EventLocation{
+/*.EventLocation{
   margin-left: 20px;
 }
 .EventAddress,.EventDetails,.EventPrice,.EventTime,.EventContact,.Book{
   margin-left: 20px;
-}
+}*/
 
 .Book{
-background: #ff3d00 none repeat scroll 0 0;
-border: 4px solid #ff3d00;
+background: #ff263d none repeat scroll 0 0;
+border: 4px solid #ff263d;
 border-radius: 4px;
 color: white;
 font-family: arial;
-/*font-size: 18px;
-line-height: 28px;
-width: 10%;*/
+float: right;
+margin-right: 4%;
 }
 
 .EventImage{
   margin-left: 20px;
-  /*display:inline-block;*/
+  float: left;
+}
+
+/*company name card*/
+#mainboxx > div > h3 > a{
+  color: #ff263d;
+}
+
+.eventLocation,.eventDetails,.eventprice,.eventtime,.eventcontact{
+  margin-left: 210px;
 }

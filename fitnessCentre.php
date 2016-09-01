@@ -80,15 +80,19 @@
 					?>	<div id="mainboxx">
 						<div class="cards">
 
-						<br> <h3 class="EventCompany"><a href="#"><?php  echo "$company"; ?></a><span class="rate"><?php  echo "$ratings"; ?></span></h3>
-						<br>  <img class="EventImage" src="<?php echo "$image"   ?>" height="100" width="100">
-						<!-- <br> <br> <p class="EventAddress"><i class="fa fa-map-marker">  <?php  echo "$location"; ?></i></p> -->
-						<br> <br> <p class="EventAddress"><span> <img src = images/location.svg  alt="" height="20" width="20" />  <?php  echo "$location"; ?></i></p>
-						<br>  <p class="EventDetails"><i class="fa fa-envelope-square">  <?php  echo "$details"; ?></i></p>
-						<br>  <p class="EventPrice"><i class="fa fa-money">  <?php  echo "$price"; ?></i></p>
-						<br>  <p class="EventTime"><i class="fa fa-clock-o">  <?php  echo "$time"; ?></i></p>
-						<br>  <p class="EventContact"><i class="fa fa-phone">  <?php  echo "$contact"; ?></i></p>
-						<br>  <button class="Book"> Book A Trial </button>
+						<br> <h3 class="EventCompany"><a  class="CompanyName" href="#"><?php  echo "$company"; ?></a><span class="rate"><?php  echo "$ratings"; ?></span></h3>
+						<br> <img class="EventImage" src="<?php echo "$image" ?>" height="200" width="175">
+            <div class = "new">
+
+						 <p class = "eventLocation"><img src="images/location.png" width="20" >  <?php  echo "$location"; ?></p>
+						 <br><p class = "eventDetails"><img src="images/details.png" width="20" >  <?php  echo "$details"; ?></p>
+             <br><p class = "eventprice"><img src="images/money.png" width="20" style="margin-bottom: -1%;">  <?php  echo "$price"; ?></p>
+						 <br><p class = "eventtime"><img src="images/time.png" width="20" style="margin-bottom: -1%;">  <?php  echo "$time"; ?></p>
+						 <br><p class = "eventcontact"><img src="images/phone.png" width="20">  <?php  echo "$contact"; ?></p>
+						 <br><button class="Book"> Book Now </button>
+
+						 </div>
+
 						</div>
 						</div>
 
