@@ -5,6 +5,9 @@
 	overflow:hidden;
 	font:12px 'Tahoma';
 	list-style-type:none;
+	margin-left: 27%;
+  margin-bottom: 1%;
+  margin-top: 2%;
 }
 
 #pagingg ul.pagination li.details{

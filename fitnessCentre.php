@@ -73,14 +73,17 @@
 							$price = $rows['Price'];
 							$time = $rows['timings'];
 							$contact = $rows['contact'];
+							$image = $rows['images'];
 							// $output = "$location <br />";
 
 
 					?>	<div id="mainboxx">
 						<div class="cards">
 
-						<h3 class="EventCompany"><a href="#"><?php  echo "$company"; ?></a><span class="fff"><?php  echo "$ratings"; ?></span></h3>
-						<br> 	<p class="EventAddress"><i class="fa fa-map-marker">  <?php  echo "$location"; ?></i></p>
+						<br> <h3 class="EventCompany"><a href="#"><?php  echo "$company"; ?></a><span class="rate"><?php  echo "$ratings"; ?></span></h3>
+						<br>  <img class="EventImage" src="<?php echo "$image"   ?>" height="100" width="100">
+						<!-- <br> <br> <p class="EventAddress"><i class="fa fa-map-marker">  <?php  echo "$location"; ?></i></p> -->
+						<br> <br> <p class="EventAddress"><span> <img src = images/location.svg  alt="" height="20" width="20" />  <?php  echo "$location"; ?></i></p>
 						<br>  <p class="EventDetails"><i class="fa fa-envelope-square">  <?php  echo "$details"; ?></i></p>
 						<br>  <p class="EventPrice"><i class="fa fa-money">  <?php  echo "$price"; ?></i></p>
 						<br>  <p class="EventTime"><i class="fa fa-clock-o">  <?php  echo "$time"; ?></i></p>
@@ -91,6 +94,7 @@
 
 						<?php
 						}
+
 
 				?>
 				<?php

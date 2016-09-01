@@ -504,11 +504,11 @@ margin: 10px auto;
 }
 
 .cards{
-width: 550px;
+width: 600px;
 border: 1px solid gray;
 box-shadow: 1px 1px 3px #888;
-border-top: 10px solid #FF3D00;
-min-height: 275px;
+/*border-top: 10px solid #FF3D00;*/
+min-height: 400px;
 padding-: 10px;
 margin: 10px auto;
 /*margin: 0 auto;*/
@@ -519,11 +519,11 @@ font-weight: bold;
 
 }
 
-.fff{
-  background: #00a550;
+.rate{
+  background: #888;
     color: white;
     border-radius: 3px;
-    height: 25px;
+    /*height: 25px;*/
     text-align: center;
     vertical-align: middle;
     width: 32px;
@@ -531,7 +531,10 @@ font-weight: bold;
     opacity: .75;
     font-size: 14px;
     line-height: 14px;
-    margin-left: 375px;
+    float: right;
+    margin-right: 10%;
+    /*right: 20px;*/
+    /*margin-left: 375px;*/
 }
 
 
@@ -555,4 +558,9 @@ font-family: arial;
 /*font-size: 18px;
 line-height: 28px;
 width: 10%;*/
+}
+
+.EventImage{
+  margin-left: 20px;
+  /*display:inline-block;*/
 }
